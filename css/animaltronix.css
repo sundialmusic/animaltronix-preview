@@ -1,0 +1,113 @@
+
+img.logo {
+    /*background-image: url(../img/AnimaltronixLogo7_tm.cropped.png);*/
+    margin: 0 auto;
+    height: 450px; 
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: whitesmoke;
+  font-family: Lato, helvetica, arial;
+  margin-top: 20px;
+}
+
+input.input, textarea, input[type=password], input[type=text], input[type=email], input[type=number], input[type=tel], input[type=url] {
+  background: #000;
+  border-radius: 0;
+  border: 1px solid #0ff;
+  color: #FFF;
+  font-size: 1.75rem;
+  font-family: Lato, helvetica, arial;
+  font-weight: 300;
+  padding: 16px 24px 15px;
+  max-width: 300px;
+  margin-bottom: 10px;
+  line-height: 1;
+  width: 100%;
+}
+
+.required email {
+    color: #000;
+}
+
+/*
+.bckgrd {
+    background-color: #000;
+    width: 250px;
+    height: 11px;
+    opacity: .75;
+}
+*/
+.notyfy-decr {
+  color: #FFF;
+  font-size: 1.00rem;
+  font-weight: 500;
+  font-family: Lato;
+  max-width: 243px;
+  margin: 0 auto;
+  padding-top: 4px;
+  padding-bottom: 15px;
+  line-height: 1.2;
+  letter-spacing: 0.27px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+    border-width: 0px;
+}
+
+#wrapper:before {
+  background: #000;
+  width: 0px;
+}
+
+#wrapper:after {
+  background: #000;
+  width: 0px;
+}
+
+.video-embed {
+    width: 700px; 
+    height: 394px;
+    margin: 0 auto;
+}
+
+@media (max-width: 415px) {
+    img.logo {
+    height: 280px;
+    width: 314px;
+    }
+    .video-embed {
+        width: 320px;
+        height: 180px; 
+    }
+    
+  }
+
+@media (max-width: 767px) {
+/*
+    .robot-girl {
+        visibility: hidden;
+    }
+*/
+  }
+
+
+
+@media (min-width: 768px) {
+    img.logo {
+    }
+     .small-logo {
+        visibility: hidden;
+    }
+  }
+
+@media (min-width: 992px) {
+
+  }
+
+@media (min-width: 1200px) {
+
+
+  }
