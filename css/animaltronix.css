@@ -10,18 +10,18 @@ img.logo {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: whitesmoke;
-  font-family: Lato, helvetica, arial;
+  color: #999;
+  font-family: ethnocentric; /*Lato, helvetica, arial; */
   margin-top: 20px;
 }
 
 input.input, textarea, input[type=password], input[type=text], input[type=email], input[type=number], input[type=tel], input[type=url] {
-  background: #000;
+  background: transparent; /*#000;*/
   border-radius: 0;
   border: 1px solid #0ff;
-  color: #FFF;
-  font-size: 1.75rem;
-  font-family: enthnocentric;
+  color: #999;
+  font-size: 1.025rem;
+  font-family: ethnocentric;
 /*  font-family: Lato, helvetica, arial;*/
   font-weight: 300;
   padding: 16px 24px 15px;
@@ -31,8 +31,12 @@ input.input, textarea, input[type=password], input[type=text], input[type=email]
   width: 100%;
 }
 
+#mc_embed_signup form {
+    font-family: ethnocentric;
+    color: #333;
+}
 .required email {
-    color: #000;
+    color: #666;
 }
 
 /*
@@ -43,8 +47,13 @@ input.input, textarea, input[type=password], input[type=text], input[type=email]
     opacity: .75;
 }
 */
+
+.notyfy-me {
+/*    background-color: #333;*/
+}
+
 .notyfy-decr {
-  color: #FFF;
+  color: #999;
   font-size: 1.00rem;
   font-weight: 500;
   font-family: ethnocentric;
@@ -57,6 +66,16 @@ input.input, textarea, input[type=password], input[type=text], input[type=email]
   letter-spacing: 0.27px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.btn, .btn input[type="submit"], .btn button {
+  background: transparent;
+  color: #999;
+  font-family: ethnocentric;
+  border-left-style: dotted;
+  border-right-style: dotted;
+  border-color: crimson;
+  border-width: thin;
 }
 
 body {
@@ -77,6 +96,12 @@ body {
     width: 700px; 
     height: 394px;
     margin: 0 auto;
+}
+
+.copyright {
+    font-family: ethnocentric;
+    font-size: 0.47rem;
+    color: #999;
 }
 
 @media (max-width: 415px) {
