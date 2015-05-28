@@ -1,11 +1,11 @@
 <?php
-$to = 'jepyzeser@gmail.com';
+$to = 'mail-bot@animaltronix.com';
 $subject = 'You subject';
 $headers = 'From: (Your site)' . "\r\n" . 'Content-type: text/html; charset=utf-8';
 $message = '
 <html>
 	<head>
-		<title>Your Site Contact Form</title>
+		<title>Contact</title>
 	</head>
 	<body>
 		<h3>Name: <span style="font-weight: normal;">' . $_POST['name'] . '</span></h3>

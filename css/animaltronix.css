@@ -1,3 +1,7 @@
+@font-face {
+    font-family: ethnocentric;
+    src: url(fonts/Typodermic-EthnocentricRg-Regular.ttf);
+}
 
 img.logo {
     /*background-image: url(../img/AnimaltronixLogo7_tm.cropped.png);*/
@@ -17,7 +21,8 @@ input.input, textarea, input[type=password], input[type=text], input[type=email]
   border: 1px solid #0ff;
   color: #FFF;
   font-size: 1.75rem;
-  font-family: Lato, helvetica, arial;
+  font-family: enthnocentric;
+/*  font-family: Lato, helvetica, arial;*/
   font-weight: 300;
   padding: 16px 24px 15px;
   max-width: 300px;
@@ -42,7 +47,8 @@ input.input, textarea, input[type=password], input[type=text], input[type=email]
   color: #FFF;
   font-size: 1.00rem;
   font-weight: 500;
-  font-family: Lato;
+  font-family: ethnocentric;
+/*  font-family: Lato;*/
   max-width: 243px;
   margin: 0 auto;
   padding-top: 4px;

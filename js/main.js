@@ -251,7 +251,7 @@ var $ = jQuery;
 			
 			if($(".mailchimp").length>0) {
 				$('.mailchimp').ajaxChimp({
-					url: 'http://us10.list-manage.com/subscribe/post?u=69007f000c70b89e124b9308d&amp;id=1225ba8aee'
+					url: '//animaltronix.us10.list-manage.com/subscribe/post?u=1282f8150c3ca30b5c76e4296&amp;id=75a4c59551'
 				});
 			}
 		}
