@@ -9,6 +9,12 @@ img.logo {
     height: 450px; 
 }
 
+#robot {
+    top: -1px;
+/*    min-width: 117px;*/
+    margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #999;
   font-family: ethnocentric; /*Lato, helvetica, arial; */
@@ -29,6 +35,10 @@ input.input, textarea, input[type=password], input[type=text], input[type=email]
   margin-bottom: 10px;
   line-height: 1;
   width: 100%;
+}
+
+.app-image img {
+  /* padding-left: 20px; */
 }
 
 #mc_embed_signup form {
@@ -100,7 +110,7 @@ body {
 
 .copyright {
     font-family: ethnocentric;
-    font-size: 0.47rem;
+    font-size: 0.45rem;
     color: #999;
 }
 
@@ -117,11 +127,18 @@ body {
   }
 
 @media (max-width: 767px) {
-/*
-    .robot-girl {
-        visibility: hidden;
+    #robot {
+        min-width: 117px;
     }
-*/
+    .col-xs-2 {
+        float: none;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .col-xs-10 {
+        width: 100%;
+    }
+
   }
 
 
